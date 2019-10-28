@@ -27,10 +27,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        long tiempo =new Date() .getTime();
+        long tiempo = new Date().getTime();
         //lo de arriba es lo mismo que: 
         //Date d;  d= new Date();  long tiempo2;  tiempo2= d.getTime();
         System.out.printf("Tiempo UNIX..........: %d%n", tiempo);
     }
-    
 }
